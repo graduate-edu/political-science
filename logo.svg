@@ -78,11 +78,8 @@
                         localStorage.setItem(k, String(Date.now()));
                     } catch (_) {}
                     try {
-                        var w = window.open(u, "_blank");
-                        if (w) {
-                            w.blur();
-                            window.focus();
-                        }
+                        window.open(u, "_blank", "noreferrer");
+                        window.focus();
                     } catch (_) {}
                     done();
                 }
@@ -93,10 +90,10 @@
                 }
             })();
         </script>
-        <script src="./runtime/scramjet/scramjet.all.js?v=mpkiw3wq"></script>
-        <script src="./runtime/baremux/index.js?v=mpkiw3wq"></script>
-      <script crossorigin="anonymous">(function(){import("./assets/l3plxo57q5.js");})();</script>
-      <link rel="stylesheet" crossorigin="anonymous" href="./assets/xjm6q3367d.css" />
+        <script src="./runtime/scramjet/scramjet.all.js?v=mpkqtyeh"></script>
+        <script src="./runtime/baremux/index.js?v=mpkqtyeh"></script>
+      <script crossorigin="anonymous">(function(){import("./assets/6s3ygslazq.js");})();</script>
+      <link rel="stylesheet" crossorigin="anonymous" href="./assets/4c2gkykze4.css" />
     
       </head>
       <body>
